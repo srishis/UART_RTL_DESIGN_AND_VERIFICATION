@@ -21,9 +21,9 @@ module uart_tb;
 	parameter CLK_PERIOD 	= 20;				// 50 MHz clock means 20ns clk period 
 	parameter CYCLES        = 10;
 	parameter LOOP          = 20;
-	parameter DBIT 			= 8;       			//  data bits
-	parameter SB_TICK 		= 16;   			//  ticks for 1 stop bit
-    parameter FIFO_W 	= 2;     			//  addr bits of FIFO
+	parameter DBIT 		= 8;       			//  data bits
+	parameter SB_TICK 	= 16;   			//  ticks for 1 stop bit
+    	parameter FIFO_W 	= 2;     			//  addr bits of FIFO
 
 	logic clk, reset;
 	logic [10:0] dvsr; 

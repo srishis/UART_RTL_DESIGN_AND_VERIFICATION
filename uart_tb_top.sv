@@ -1,7 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////
 // uart_tb_top.sv - Top level Test bench for UART Design  
 //
-// Author:	Rishitosh Sawant (risawant@pdx.edu)
 // Date:	5/19/2020 
 //
 // Description:
